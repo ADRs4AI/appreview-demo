@@ -7,7 +7,7 @@
 ## Questions
 
 ### QST: Does the changelog bot post to #eng or #releases?
-- Status: unanswered
+- Status: answered
 - Why deferring: not blocking this ADR's acceptance — the bot ships either way and the channel is a one-line config change.
 - Need: pick a channel
 
@@ -19,8 +19,8 @@
 
 **B — #releases.** Justification: a changelog bot posting on every merge is exactly the kind of ambient noise that trains people to mute a channel — better to give it its own home from day one than to retrofit that later once #eng habits have formed. Consequence if wrong: if #releases sits unread because nobody thought to join it, the bot's announcements become invisible, which is a worse failure than a bit of noise in #eng.
 
-**ANS:** (by [name])
-[Fill this in]
+**ANS:** (by adrs4ai-appreview (via ADRs4AI mobile))
+B — #releases.
 
 ---
 
